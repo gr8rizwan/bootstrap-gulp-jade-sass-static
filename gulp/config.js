@@ -2,36 +2,39 @@
 
 module.exports = {
 
-  'serverport': 3000,
+    'serverport': 3000,
 
-  'styles': {
-    'src' : 'assets/sass/**/*.scss',
-    'dest': 'public/css'
-  },
+    'styles': {
+        'src': 'assets/sass/**/*.scss',
+        'dest': 'public/css'
+    },
 
-  'scripts': {
-    'src' : 'assets/js/**/*.js',
-    'dest': 'public/js'
-  },
+    'scripts': {
+        'src': 'assets/js/**/*.js',
+        'dest': 'public/js'
+    },
 
-  'images': {
-    'src' : 'assets/images/**/*',
-    'dest': 'public/images'
-  },
+    'images': {
+        'src': 'assets/images/**/*',
+        'dest': 'public/images'
+    },
 
-  'views': {
-    'watch': 'views/**/*.jade',
-    'src': 'views/*.jade'
-  },
+    'views': {
+        'watch': 'views/**/*.jade',
+        'src': 'views/*.jade'
+    },
 
-  'copy': {
-    'bower': [
-      'bower_components/jquery/dist/jquery.js'
-    ]
-  },
+    'copy': {
+        'bower': [
+            'bower_components/jquery/dist/jquery.js'
+        ],
+        'bootstrap': [
+            'assets/bootstrap/javascripts/bootstrap.min.js'
+        ]
+    },
 
-  'dist': {
-    'root'  : 'public'
-  }
+    'dist': {
+        'root': 'public'
+    }
 
 };
