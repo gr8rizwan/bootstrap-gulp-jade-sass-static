@@ -24,3 +24,13 @@ $ gulp dev
 Open your web browser and navigate to [http://localhost:3001](http://localhost:3001)
 
 ---
+
+Getting following Error:
+```bash
+Error: `libsass` bindings not found. Try reinstalling `node-sass`?
+```
+Try this:
+```bash
+npm uninstall --save-dev gulp-sass
+npm install --save-dev gulp-sass@2
+```
